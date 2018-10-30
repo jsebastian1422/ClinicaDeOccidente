@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- Main Content-->
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#0d6db9"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#f9f6f6"
+        app:itemTextColor="#fff"
+        app:menu="@menu/menu_nav">
+
+    </android.support.design.widget.BottomNavigationView>
+</FrameLayout>

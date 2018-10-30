@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/acount_id"
+        android:icon="@drawable/ic_pregnant_woman_black_24dp"
+        android:title=""
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/home_id"
+        android:title=""
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/healing_id"
+        android:title=""
+        android:icon="@drawable/ic_healing"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

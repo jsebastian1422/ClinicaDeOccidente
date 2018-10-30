@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frame_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <include
+
+        layout="@layout/fragment_home"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#0d6db9"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#f9f6f6"
+        app:itemTextColor="#fff"
+        app:menu="@menu/menu_nav">
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+
+
+</FrameLayout>
