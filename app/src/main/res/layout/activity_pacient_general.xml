@@ -7,10 +7,10 @@
     tools:context=".PacientGeneralActivity"
     android:background="@drawable/shadow">
 
-    <include
+   <!-- <include
         android:id="@+id/navbar"
         layout="@layout/navegation_bar"
-        />
+        />-->
 
     <LinearLayout
         android:layout_width="match_parent"
